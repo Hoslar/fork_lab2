@@ -16,6 +16,7 @@
  * 1 <= s.length <= 104
  * s 由小写英文字母组成
  */
+//全对，太厉害了
 class Solution2 {
     public String removeDuplicateLetters(String s) {
         boolean[] vis = new boolean[26];
